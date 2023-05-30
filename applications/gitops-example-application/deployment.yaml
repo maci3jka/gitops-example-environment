@@ -15,7 +15,5 @@ spec:
       containers:
       - image: maci3jka/gitops-example-application:v9
         name: gitops-example-application
-      - image: <image-name>:<tag>
-        name: example-application
         ports:
         - containerPort: 8080
