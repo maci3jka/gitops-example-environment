@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: example-application
+  namespace: default
 spec:
   replicas: 1
   selector:
@@ -13,7 +14,7 @@ spec:
         app: example-application
     spec:
       containers:
-      - name: example-application
-        image: <image-name>:<tag>
+      - image: gitopsdiscretemonkfishcontainerregistry.azurecr.io/gitops-example-application:v11
+        name: gitops-example-application
         ports:
         - containerPort: 8080
