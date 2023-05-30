@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 5m0s
-  path: ./applications/example-application
+  path: ./applications/gitops-example-application
   prune: true
   sourceRef:
     kind: GitRepository
