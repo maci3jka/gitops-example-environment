@@ -14,7 +14,7 @@ spec:
         app: example-application
     spec:
       containers:
-      - image: gitopsdiscretemonkfishcontainerregistry.azurecr.io/gitops-example-application:v11
+      - image: gitopsholykingfishcontainerregistry.azurecr.io/gitops-example-application:v14
         name: gitops-example-application
         ports:
         - containerPort: 8080
