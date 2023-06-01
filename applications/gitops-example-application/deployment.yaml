@@ -14,7 +14,7 @@ spec:
         app: example-application
     spec:
       containers:
-      - image: gitopssoundmollycontainerregistry.azurecr.io/gitops-example-application:v1.0.0
+      - image: gitopssoundmollycontainerregistry.azurecr.io/gitops-example-application:v1.1.0
         name: gitops-example-application
         ports:
         - containerPort: 8080
